@@ -12,10 +12,35 @@
   }
 }
 
+.button:active {
+  color: blanchedalmond;
+}
+
 body {
   background-image: url("IMAGES/ICHI_01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#info
+{
+  font-family: 'Courier New', Courier, monospace;
+  float: right;
+  font-size: 100px;
+  text-align: center;
+  position:absolute;
+}
+
+#mobile
+{
+  font-size: 100px;
+  color: yellow;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  top: 25%;
 }
 
 #welcome {
